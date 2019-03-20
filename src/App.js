@@ -17,9 +17,7 @@ class App extends Component {
                 <h2>Count is:{count}</h2>
                 <button
                     onClick={() => {
-                        this.setState(state => ({ count: state.count + 1 }));
-                        this.setState(state => ({ count: state.count + 1 }));
-                        this.setState(state => ({ count: state.count + 1 }));
+                        this.setState(state => ({ count: state.count + 1 }));                      
                     }}
                 >
                     ADD
